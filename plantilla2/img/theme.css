@@ -1,0 +1,353 @@
+BODY {
+	BORDER-RIGHT: 0px;
+	PADDING-RIGHT: 0px;
+	BACKGROUND-POSITION: center;
+	BORDER-TOP: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	BORDER-LEFT: 0px;
+	PADDING-TOP: 0px;
+	BORDER-BOTTOM: 0px;
+	BACKGROUND-REPEAT: no-repeat;
+	background-attachment:fixed;
+	FONT-FAMILY: Arial, Helvetica, sans-serif, "San serif";
+}
+H2 {
+	MARGIN-TOP: 6px; FONT-SIZE: 22px; VERTICAL-ALIGN: bottom; COLOR: #2F2C7B; FONT-FAMILY: Arial, Helvetica, sans-serif, san-serif, "San serif"; HEIGHT: 13px
+}
+FORM {
+	MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px;
+}
+SELECT {
+	FONT-SIZE: 12px; COLOR: #262626
+}
+A {
+	COLOR: #536c88; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #536c88; TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #536c88; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #536c88; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #768eaa; TEXT-DECORATION: underline
+}
+.texture {
+	Z-INDEX: 1; RIGHT: 56px; VISIBILITY: visible; WIDTH: auto; POSITION: absolute; TOP: 0px; HEIGHT: 28px
+}
+#username {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 11px; Z-INDEX: 5; LEFT: 0px; VISIBILITY: visible; PADDING-BOTTOM: 6px; MARGIN: 0px; FONT: 11px Arial, Helvetica, sans-serif, san-serif, "San serif"; WIDTH: auto; COLOR: #666b6b; PADDING-TOP: 4px; POSITION: absolute; TOP: 53px; TEXT-DECORATION: none
+}
+UL#Tabs {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 15px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; min-width: 550px
+}
+UL#Tabs LI {
+	MARGIN-TOP: 0px; FLOAT: left; MARGIN-LEFT: 2px; LINE-HEIGHT: 25px; MARGIN-RIGHT: 20px
+}
+UL#Tabs LI:hover {
+	BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(images/hoverNavRight.gif); BACKGROUND-REPEAT: no-repeat
+}
+UL#Tabs LI.hoverOn {
+	BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(images/hoverNavRight.gif); BACKGROUND-REPEAT: no-repeat
+}
+UL#Tabs LI.hoverOff {
+	
+}
+UL#Tabs A {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 10px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; WIDTH: 100px; COLOR: #fff; LINE-HEIGHT: 25px; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif, san-serif, "San serif"; WHITE-SPACE: nowrap; TEXT-DECORATION: none
+}
+UL#Tabs A:hover {
+	BACKGROUND-POSITION: left top; BACKGROUND-IMAGE: url(images/hoverNavLeft.gif); COLOR: #7c8ea7; BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: none
+}
+UL#Tabs #current {
+	BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(images/activeNavRight.gif); COLOR: #dee7ef; LINE-HEIGHT: 25px; BACKGROUND-REPEAT: no-repeat
+}
+UL#Tabs #current A {
+	BACKGROUND-POSITION: left top; MARGIN-TOP: 0px; BACKGROUND-IMAGE: url(images/activeNavLeft.gif); PADDING-BOTTOM: 0px; COLOR: #dee7ef; BACKGROUND-REPEAT: no-repeat
+}
+UL#Tabs #currentAC {
+	BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(images/activeNavRight.gif); COLOR: #dee7ef; LINE-HEIGHT: 25px; BACKGROUND-REPEAT: no-repeat
+}
+UL#Tabs #currentAC A {
+	BACKGROUND-POSITION: left top; MARGIN-TOP: 0px; BACKGROUND-IMAGE: url(images/activeNavLeft.gif); PADDING-BOTTOM: 0px; COLOR: #dee7ef; BACKGROUND-REPEAT: no-repeat
+}
+LI.currentTabBackground {
+	
+}
+LI.currentTabBackgroundAC {
+	
+}
+UL#Tabs A {
+	FLOAT: none
+}
+UL#TabsRight {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+UL#TabsRight LI {
+	FLOAT: left; MARGIN-LEFT: 5px; LINE-HEIGHT: 25px
+}
+UL#TabsRight A {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 10px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; WIDTH: 10px; COLOR: #fff; LINE-HEIGHT: 25px; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif, san-serif, "San serif"; WHITE-SPACE: nowrap; TEXT-DECORATION: none
+}
+UL#TabsRight A:hover {
+	BACKGROUND-POSITION: left top; BACKGROUND-IMAGE: url(images/hoverNavLeft.gif); COLOR: #7c8ea7; BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: none
+}
+UL#TabsRight LI.hoverOnRight {
+	BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(images/hoverNavRight.gif); BACKGROUND-REPEAT: no-repeat
+}
+UL#TabsRight LI.hoverOffRight {
+	
+}
+UL#TabsRight LI:hover {
+	BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(images/hoverNavRight.gif); BACKGROUND-REPEAT: no-repeat
+}
+UL#TabsRight #current {
+	BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(images/activeNavRight.gif); COLOR: #dee7ef; LINE-HEIGHT: 25px; BACKGROUND-REPEAT: no-repeat
+}
+UL#TabsRight #current A {
+	BACKGROUND-POSITION: left top; MARGIN-TOP: 0px; BACKGROUND-IMAGE: url(images/activeNavLeft.gif); PADDING-BOTTOM: 0px; COLOR: #dee7ef; BACKGROUND-REPEAT: no-repeat
+}
+UL#TabsRight A {
+	FLOAT: none
+}
+UNKNOWN {
+	WIDTH: auto
+}
+#rightMenu {
+	Z-INDEX: 1; RIGHT: 20px; FLOAT: right; VISIBILITY: visible; WIDTH: auto; BOTTOM: 1px; POSITION: relative; TOP: 0px
+}
+#wrapper {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: top; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 79px
+}
+#spacer {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 999px; LINE-HEIGHT: 0px; PADDING-TOP: 0px; HEIGHT: 0px
+}
+#subNav {
+	WIDTH: 100%; POSITION: absolute; TOP: 79px; BACKGROUND-COLOR: #eeeeef
+}
+#subNav A {
+	FONT-SIZE: 12px; WIDTH: 100%; COLOR: #768eaa; LINE-HEIGHT: 25px; FONT-FAMILY: Arial, Helvetica, sans-serif, san-serif, "San serif"; WHITE-SPACE: nowrap; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+#subNav A:hover {
+	TEXT-DECORATION: underline
+}
+#subNav A:active {
+	COLOR: #666b6b; BACKGROUND-COLOR: #eeeeef; TEXT-DECORATION: none
+}
+#subNavHighlight {
+	BORDER-RIGHT: #c4c7cb 1px solid; BORDER-TOP: #c4c7cb 1px solid; BORDER-LEFT: #c4c7cb 1px solid; LINE-HEIGHT: 25px; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: #eeeeef
+}
+#subNavhighlight A {
+	COLOR: #666b6b
+}
+.subNavItem {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; FONT: 11px/25px Arial, Helvetica, sans-serif, san-serif, "San serif"; WIDTH: 16%; PADDING-TOP: 0px; BORDER-BOTTOM: #c4c7cb 1px solid; TEXT-ALIGN: center
+}
+.subNavItemDisabled {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; FONT: 11px/25px Arial, Helvetica, sans-serif, san-serif, "San serif"; WIDTH: 16%; COLOR: #aca899; PADDING-TOP: 0px; BORDER-BOTTOM: #c4c7cb 1px solid; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.subNavItemEmpty {
+	LINE-HEIGHT: 25px; BORDER-BOTTOM: #c4c7cb 1px solid
+}
+UL#TabsPortlet {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+UL#TabsPortlet LI {
+	BACKGROUND-POSITION: right top; MARGIN-TOP: 16px; FONT-SIZE: 11px; FLOAT: left; BACKGROUND-IMAGE: url(images/portletTabInactiveRt.gif); MARGIN-LEFT: 2px; LINE-HEIGHT: 22px; MARGIN-RIGHT: 5px; BACKGROUND-REPEAT: no-repeat; WHITE-SPACE: nowrap; LIST-STYLE-TYPE: none
+}
+UL#TabsPortlet A {
+	PADDING-RIGHT: 16px; DISPLAY: block; PADDING-LEFT: 17px; FLOAT: left; BACKGROUND-IMAGE: url(images/portletTabInactiveLft.gif); PADDING-BOTTOM: 0px; WIDTH: 0.1em; COLOR: #000000; PADDING-TOP: 0px; BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: none
+}
+UL#TabsPortlet A:hover {
+	BACKGROUND-IMAGE: url(images/portletTabHighlightLft.gif); COLOR: #000000; BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: none
+}
+UL#TabsPortlet LI:hover {
+	BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(images/portletTabHighlightRt.gif); BACKGROUND-REPEAT: no-repeat
+}
+UL#TabsPortlet LI.hoverOnPortlet {
+	BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(images/portletTabHighlightRt.gif); BACKGROUND-REPEAT: no-repeat
+}
+UL#TabsPortlet LI.hoverOffPortlet {
+	BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(images/portletTabInactiveRt.gif); BACKGROUND-REPEAT: no-repeat
+}
+UL#TabsPortlet #current {
+	BACKGROUND-IMAGE: url(images/portletTabRt.gif); COLOR: #dee7ef; BACKGROUND-REPEAT: no-repeat
+}
+UL#TabsPortlet #current A {
+	BACKGROUND-IMAGE: url(images/portletTabLft.gif); COLOR: #dee7ef; BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: none
+}
+UL#TabsPortlet A {
+	FLOAT: none
+}
+UNKNOWN {
+	WIDTH: auto
+}
+UL#TabsPortletAC {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+UL#TabsPortletAC LI {
+	BACKGROUND-POSITION: right top; MARGIN-TOP: 16px; FONT-SIZE: 11px; FLOAT: left; BACKGROUND-IMAGE: url(images/portletTabInactiveRt.gif); MARGIN-LEFT: 1px; LINE-HEIGHT: 22px; MARGIN-RIGHT: 5px; BACKGROUND-REPEAT: no-repeat; WHITE-SPACE: nowrap; LIST-STYLE-TYPE: none
+}
+UL#TabsPortletAC A {
+	PADDING-RIGHT: 16px; DISPLAY: block; PADDING-LEFT: 17px; FLOAT: left; BACKGROUND-IMAGE: url(images/portletTabInactiveLft.gif); PADDING-BOTTOM: 0px; WIDTH: 0.1em; COLOR: #000000; PADDING-TOP: 0px; BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: none
+}
+UL#TabsPortletAC A:hover {
+	BACKGROUND-IMAGE: url(images/portletTabHighlightLft.gif); COLOR: #000000; BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: none
+}
+UL#TabsPortletAC LI:hover {
+	BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(images/portletTabHighlightRt.gif); BACKGROUND-REPEAT: no-repeat
+}
+UL#TabsPortletAC LI.hoverOnPortlet {
+	BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(images/portletTabHighlightRt.gif); BACKGROUND-REPEAT: no-repeat
+}
+UL#TabsPortletAC LI.hoverOffPortlet {
+	BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(images/portletTabInactiveRt.gif); BACKGROUND-REPEAT: no-repeat
+}
+UL#TabsPortletAC #current {
+	BACKGROUND-IMAGE: url(images/portletTabRt.gif); COLOR: #dee7ef; BACKGROUND-REPEAT: no-repeat
+}
+UL#TabsPortletAC #current A {
+	BACKGROUND-IMAGE: url(images/portletTabLft.gif); COLOR: #dee7ef; BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: none
+}
+UL#TabsPortletAC A {
+	FLOAT: none
+}
+UNKNOWN {
+	WIDTH: auto
+}
+.nv-NavigationColor {
+	COLOR: #666b6b
+}
+.nv-NavigationBackgroundColor {
+	BACKGROUND-COLOR: #fff
+}
+.nv-leftNav {
+	BORDER-RIGHT: #c4c7cb 1px solid; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 191px; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif, san-serif, "San serif"; HEIGHT: 100%; BACKGROUND-COLOR: #fff; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.nv-leftNavTable {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 190px; PADDING-TOP: 0px; BORDER-BOTTOM: #c4c7cb 1px solid
+}
+.nv-leftNavTableAC {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 190px; PADDING-TOP: 0px; BORDER-BOTTOM: #c4c7cb 1px solid; BACKGROUND-COLOR: #fff
+}
+#sectionGroupPC {
+	BORDER-BOTTOM: #c4c7cb 1px solid
+}
+#sectionGroupIE {
+	BORDER-BOTTOM: #c4c7cb 1px solid
+}
+TD.nv-leftNavGroup {
+	BORDER-RIGHT: 0px; BACKGROUND-POSITION: 50% top; BORDER-TOP: 0px; PADDING-LEFT: 8px; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(images/leftNavGroupStyle.gif); MARGIN: 0px; BORDER-LEFT: 0px; CURSOR: default; COLOR: #666b6b; BORDER-BOTTOM: #c4c7cb 1px solid; BACKGROUND-REPEAT: repeat-x; HEIGHT: 20px; BACKGROUND-COLOR: #dee2e4
+}
+TD.nv-leftNavGroupAC {
+	BORDER-RIGHT: 0px; BACKGROUND-POSITION: 50% top; BORDER-TOP: 0px; PADDING-LEFT: 8px; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(images/leftNavGroupStyle.gif); MARGIN: 0px; BORDER-LEFT: 0px; CURSOR: default; COLOR: #666b6b; BORDER-BOTTOM: #c4c7cb 1px solid; BACKGROUND-REPEAT: repeat-x; HEIGHT: 20px; BACKGROUND-COLOR: #dee2e4
+}
+A.nv-leftNavGroupLink {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: 500; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #666b6b; PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+A.nv-leftNavGroupLink:visited {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: 500; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #666b6b; PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+A.nv-leftNavGroupLink:hover {
+	CURSOR: pointer; TEXT-DECORATION: none
+}
+A.nv-leftNavGroupLink:active {
+	CURSOR: pointer; TEXT-DECORATION: none
+}
+A.nv-leftNavLink {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FONT-WEIGHT: 500; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; MARGIN: 0px; COLOR: #666b6b; LINE-HEIGHT: 14px; PADDING-TOP: 5px; TEXT-DECORATION: none
+}
+A.nv-leftNavLink:visited {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FONT-WEIGHT: 500; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; MARGIN: 0px; COLOR: #666b6b; LINE-HEIGHT: 14px; PADDING-TOP: 5px; TEXT-DECORATION: none
+}
+A.nv-leftNavLink:hover {
+	COLOR: #828686; TEXT-DECORATION: underline
+}
+A.nv-leftNavLink:active {
+	COLOR: #828686; TEXT-DECORATION: underline
+}
+.nv-SideNavigation {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 18px; PADDING-BOTTOM: 0px; MARGIN: 0px; TEXT-INDENT: -2px; PADDING-TOP: 0px
+}
+.nv-leftNavListEntry {
+	PADDING-RIGHT: 0px; LIST-STYLE: none none outside; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; MARGIN: 0px; CURSOR: default; LINE-HEIGHT: 14px; PADDING-TOP: 5px
+}
+.nv-leftNavHighlight {
+	LIST-STYLE-IMAGE: url(images/leftNavHighlightBullet.gif)! important; COLOR: #666b6b! important; LIST-STYLE-TYPE: disc! important
+}
+.proxyMode {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #fff; FONT-FAMILY: Arial, Helvetica, sans-serif, san-serif, "San serif"; LETTER-SPACING: 0px; HEIGHT: 18px; BACKGROUND-COLOR: #e10000
+}
+.portletTopSection {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-WEIGHT: normal; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(images/portletTexture.gif); PADDING-BOTTOM: 10px; MARGIN: 0px -5px 6px -3px; COLOR: #666b6b; PADDING-TOP: 10px; BORDER-BOTTOM: #c4c7cb 1px solid; BACKGROUND-REPEAT: repeat; FONT-FAMILY: Arial, Helvetica, sans-serif, san-serif, "San serif"; BACKGROUND-COLOR: #fbfbfa
+}
+.portletBottomSection {
+	PADDING-RIGHT: 10px; BORDER-TOP: #c4c7cb 1px solid; PADDING-LEFT: 10px; FONT-WEIGHT: normal; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(images/portletTexture.gif); PADDING-BOTTOM: 10px; MARGIN: 6px -5px 0px -3px; COLOR: #666b6b; PADDING-TOP: 10px; BACKGROUND-REPEAT: repeat; FONT-FAMILY: Arial, Helvetica, sans-serif, san-serif, "San serif"; BACKGROUND-COLOR: #fbfbfa
+}
+FIELDSET {
+	BORDER-RIGHT: #babdb6 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #babdb6 1px solid; PADDING-LEFT: 6px; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 6px; BORDER-LEFT: #babdb6 1px solid; PADDING-TOP: 6px; BORDER-BOTTOM: #babdb6 1px solid; BACKGROUND-COLOR: transparent
+}
+LEGEND {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; FONT-SIZE: 15px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent
+}
+INPUT.txtnormal {
+	FONT-SIZE: 12px;
+	color:#2F2C7B; 
+	font: bold 84% 'trebuchet ms',helvetica,sans-serif; 
+	border: 1px solid; 
+	border-color: #2F2C7B; 
+}
+INPUT.txterror {
+	FONT-SIZE: 12px;
+	color:red; 
+	font: bold 84% 'trebuchet ms',helvetica,sans-serif; 
+	border: 1px solid; 
+	border-color: red; 
+}
+INPUT.btnnormal {
+	FONT-SIZE: 12px;
+	color: #FFFFFF;
+	background-color: #2F2C7B; 
+	font: bold 84% 'trebuchet ms',helvetica,sans-serif; 
+	border: 1px solid; 
+	border-color: #2F2C7B; 
+}
+LABEL {
+	COLOR: #2F2C7B
+}
+.list-item {
+	FONT-SIZE: 12px; VERTICAL-ALIGN: middle; FONT-FAMILY: Arial, Helvetica, sans-serif, san-serif, "San serif"; LIST-STYLE-TYPE: none
+}
+.list-item LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 12px; BACKGROUND-IMAGE: url(images/leftNavHighlightBullet.gif); PADDING-BOTTOM: 0px; MARGIN-LEFT: -12px; PADDING-TOP: 0px; BACKGROUND-REPEAT: no-repeat
+}
+#legendColumnOne {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; POSITION: relative
+}
+#legendColumnTwo {
+	FLOAT: right; MARGIN: 0px; BORDER-LEFT: #c4c7cb 1px solid; WIDTH: 50%
+}
+IMG.floatright {
+	FLOAT: right
+}
+IMG.margin5r {
+	MARGIN-RIGHT: 5px
+}
+form input[name=login] {
+padding-left: 5px;
+}
+form input[name=mail] {
+padding-left: 5px;
+}
+form input[name=phone] {
+padding-left: 5px;
+}
+
+form input[type=password] {
+padding-left: 5px;
+}

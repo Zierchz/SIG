@@ -1,0 +1,2 @@
+<input id="LoginForm_username" class="error" type="text" name="LoginForm[username]">
+<input id="LoginForm_password" class="error" type="password" name="LoginForm[password]">

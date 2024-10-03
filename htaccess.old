@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTPS} !=On
+RewriteRule ^/?(.*) https://www.maplic.etecsa.cu/$1 [R=301,L]
+</IfModule>

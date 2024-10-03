@@ -1,0 +1,17 @@
+{
+    "name": "leona/sig",
+    "autoload": {
+        "psr-4": {
+            "Leona\\Sig\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leo"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.29",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}

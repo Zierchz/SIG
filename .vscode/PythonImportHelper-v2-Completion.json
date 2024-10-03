@@ -1,0 +1,92 @@
+[
+    {
+        "label": "default",
+        "kind": 2,
+        "importPath": "js.jspdf.wscript",
+        "description": "js.jspdf.wscript",
+        "peekOfCode": "def default(context):\n    minifyfiles(context)\ndef minifyfiles(context):\n    src = context.Node('jspdf.js')\n    dst = src.parent + 'dist/' + src.name - '.js' + '.source.js'\n    dst.text = src.text.replace(\n            \"${buildDate}\", timeUTC()\n        ).replace(\n            \"${commitID}\", getCommitIDstring()\n        ) + \\",
+        "detail": "js.jspdf.wscript",
+        "documentation": {}
+    },
+    {
+        "label": "minifyfiles",
+        "kind": 2,
+        "importPath": "js.jspdf.wscript",
+        "description": "js.jspdf.wscript",
+        "peekOfCode": "def minifyfiles(context):\n    src = context.Node('jspdf.js')\n    dst = src.parent + 'dist/' + src.name - '.js' + '.source.js'\n    dst.text = src.text.replace(\n            \"${buildDate}\", timeUTC()\n        ).replace(\n            \"${commitID}\", getCommitIDstring()\n        ) + \\\n        (src - 'jspdf.js' + 'libs/polyfill.js').text + \\\n        (src - '.js' + '.plugin.addimage.js').text + \\",
+        "detail": "js.jspdf.wscript",
+        "documentation": {}
+    },
+    {
+        "label": "docs",
+        "kind": 2,
+        "importPath": "js.jspdf.wscript",
+        "description": "js.jspdf.wscript",
+        "peekOfCode": "def docs(context):\n\t'''\n\tjava -jar %jsdocbindir%\\jsrun.jar %jsdocbindir%\\app\\run.js -v %rootdir%\\jspdf.js -d=%rootdir%\\doc -t=%rootdir%\\tools\\jsdoc_template\n\t'''\n\tjsdocBinDir = context.Node('~/bin/jsdoc-toolkit/')\n\tcodefile = context.Node('jspdf.js')\n\tdestinationFolder = context.Node('doc/')\n\ttemplateFolder = context.Node('tools/jsdoc_template/')\n\timport subprocess\n\tsubprocess.call(",
+        "detail": "js.jspdf.wscript",
+        "documentation": {}
+    },
+    {
+        "label": "timeUTC",
+        "kind": 2,
+        "importPath": "js.jspdf.wscript",
+        "description": "js.jspdf.wscript",
+        "peekOfCode": "def timeUTC():\n    import datetime\n    return datetime.datetime.utcnow().strftime(\"%Y-%m-%dT%H:%M\")\ndef getCommitIDstring():\n    import subprocess\n    if not hasattr( subprocess, \"check_output\"):\n        # let's not bother emulating it. Not important\n        return \"\"\n    else:\n        return subprocess.check_output(",
+        "detail": "js.jspdf.wscript",
+        "documentation": {}
+    },
+    {
+        "label": "getCommitIDstring",
+        "kind": 2,
+        "importPath": "js.jspdf.wscript",
+        "description": "js.jspdf.wscript",
+        "peekOfCode": "def getCommitIDstring():\n    import subprocess\n    if not hasattr( subprocess, \"check_output\"):\n        # let's not bother emulating it. Not important\n        return \"\"\n    else:\n        return subprocess.check_output(\n            [\n                'git'\n                , 'rev-parse'",
+        "detail": "js.jspdf.wscript",
+        "documentation": {}
+    },
+    {
+        "label": "compress_with_closure_compiler",
+        "kind": 2,
+        "importPath": "js.jspdf.wscript",
+        "description": "js.jspdf.wscript",
+        "peekOfCode": "def compress_with_closure_compiler(code, compression_level = None):\n    '''Sends text of JavaScript code to Google's Closure Compiler API\n    Returns text of compressed code.\n    '''\n    # script (with some modifications) from \n    # https://developers.google.com/closure/compiler/docs/api-tutorial1\n    import httplib, urllib, sys\n    compression_levels = [\n        'WHITESPACE_ONLY'\n        , 'SIMPLE_OPTIMIZATIONS'",
+        "detail": "js.jspdf.wscript",
+        "documentation": {}
+    },
+    {
+        "label": "\tjsdocBinDir",
+        "kind": 5,
+        "importPath": "js.jspdf.wscript",
+        "description": "js.jspdf.wscript",
+        "peekOfCode": "\tjsdocBinDir = context.Node('~/bin/jsdoc-toolkit/')\n\tcodefile = context.Node('jspdf.js')\n\tdestinationFolder = context.Node('doc/')\n\ttemplateFolder = context.Node('tools/jsdoc_template/')\n\timport subprocess\n\tsubprocess.call(\n\t\t[\n\t\t\t'java'\n\t\t\t, '-jar'\n\t\t\t, (jsdocBinDir + 'jsrun.jar').absolutepath",
+        "detail": "js.jspdf.wscript",
+        "documentation": {}
+    },
+    {
+        "label": "\tcodefile",
+        "kind": 5,
+        "importPath": "js.jspdf.wscript",
+        "description": "js.jspdf.wscript",
+        "peekOfCode": "\tcodefile = context.Node('jspdf.js')\n\tdestinationFolder = context.Node('doc/')\n\ttemplateFolder = context.Node('tools/jsdoc_template/')\n\timport subprocess\n\tsubprocess.call(\n\t\t[\n\t\t\t'java'\n\t\t\t, '-jar'\n\t\t\t, (jsdocBinDir + 'jsrun.jar').absolutepath\n\t\t\t, (jsdocBinDir + 'app/run.js').absolutepath",
+        "detail": "js.jspdf.wscript",
+        "documentation": {}
+    },
+    {
+        "label": "\tdestinationFolder",
+        "kind": 5,
+        "importPath": "js.jspdf.wscript",
+        "description": "js.jspdf.wscript",
+        "peekOfCode": "\tdestinationFolder = context.Node('doc/')\n\ttemplateFolder = context.Node('tools/jsdoc_template/')\n\timport subprocess\n\tsubprocess.call(\n\t\t[\n\t\t\t'java'\n\t\t\t, '-jar'\n\t\t\t, (jsdocBinDir + 'jsrun.jar').absolutepath\n\t\t\t, (jsdocBinDir + 'app/run.js').absolutepath\n\t\t\t, '-v'",
+        "detail": "js.jspdf.wscript",
+        "documentation": {}
+    },
+    {
+        "label": "\ttemplateFolder",
+        "kind": 5,
+        "importPath": "js.jspdf.wscript",
+        "description": "js.jspdf.wscript",
+        "peekOfCode": "\ttemplateFolder = context.Node('tools/jsdoc_template/')\n\timport subprocess\n\tsubprocess.call(\n\t\t[\n\t\t\t'java'\n\t\t\t, '-jar'\n\t\t\t, (jsdocBinDir + 'jsrun.jar').absolutepath\n\t\t\t, (jsdocBinDir + 'app/run.js').absolutepath\n\t\t\t, '-v'\n\t\t\t, codefile.absolutepath",
+        "detail": "js.jspdf.wscript",
+        "documentation": {}
+    }
+]
